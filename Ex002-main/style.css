@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(110, 41, 175);;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.13);
+}
+
+ul{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+    }    /* carbuy*/
+
+#buycar{
+        width: 2.3cqh;
+       
+        position: relative;
+        top: -10px;
+        right: -12px;
+    }
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: all ease-in 1s;
+    
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.678);
+    transform: scaleX(2deg);
+}
+
+#banner{
+
+    color: white;
+    height: 100vh;
+    background-color: rgb(110, 41, 175);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+figure{
+    background-color: rgba(157, 64, 245, 0.973);
+    padding: 10px;
+    border-radius: 40px;
+    width: 35em;
+}
+
+img{
+    margin-bottom: -13px;
+    width: 700px;
+    translate: -10px;
+
+}
+p{
+    background-color: #ffff;
+    color: black;
+    width: 188px;
+    padding: 2px;
+}
+/*Segunda divisão do site*/
+#part2{
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+background-color: #ffffff;
+}
+
+
+
+
+#part2 section{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.082);
+    border-radius:20px ;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+/*icon sec2*/
+
+.icon{
+    width: 50px;
+    padding: 15px;
+}
+/*sec BUy*/
+#buy{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#buy > div {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffff;
+}
+
